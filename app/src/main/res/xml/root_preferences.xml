@@ -1,0 +1,12 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--ToDo 6) Split your hierarchy -->
+    <Preference
+        app:fragment="com.noha.settingapplication.SettingsActivity$MessageSettingsFragment"
+        app:title="Message" />
+
+    <Preference
+        app:fragment="com.noha.settingapplication.SettingsActivity$SyncSettingsFragment"
+        app:title="Sync" />
+
+</PreferenceScreen>
